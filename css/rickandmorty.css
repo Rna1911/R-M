@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Krona+One|Slabo+27px');
+
+body {
+  background-color: #222;
+  background-image: url("https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/2016/57e3d4dbd417f.jpg");
+  font-family: 'Krona One', Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Slabo, Georgia, serif;
+}
+
+h1 {
+  color: white;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  color: red;
+}
+
+.content-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 15px;
+  background-color: #50d;
+}
+
+.hero-top {
+  background: url("https://rickandmortymerchandise.net/wp-content/uploads/2017/09/Rick-and-Morty-Season-3-New-Cartoon-art-silk-Poster_18-600x600.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.dark-transparency {
+  padding: 25px;
+  background-color: rgba(0,0,0,.55);
+}
+
+.hero-top .lead {
+  color: #CCC;
+}
+
+.margin-top15 {
+  margin-top: 15px;
+}
+
+.margin-bottom15 {
+  margin-bottom: 15px;
+}
+
+.margin-right15 {
+  margin-right: 15px;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+@media (max-width: 575px) {
+  .content-box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
